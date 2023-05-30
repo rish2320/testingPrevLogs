@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-    fmt.Println(time.Now().Format("15:04:05"))
+    fmt.Print(time.Now().Format("15:04:05 "))
     fmt.Println("Hello, World!")
 }
